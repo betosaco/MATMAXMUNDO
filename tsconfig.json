@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/calculator-e2e"
+    },
+    {
+      "path": "./apps/calculator"
+    },
+    {
+      "path": "./libs/shared/components"
+    }
+  ]
+}
